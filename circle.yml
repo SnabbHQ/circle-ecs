@@ -2,7 +2,7 @@ machine:
   environment:
     PATH: "$PATH:~/$CIRCLE_PROJECT_REPONAME/bin"
   python:
-    version: 2.7.9
+    version: 3.5.1
   services:
     - docker
 dependencies:
